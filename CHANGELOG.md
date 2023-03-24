@@ -1,3 +1,97 @@
+# 3/20/2023
+
+## Packages
+
+### Directly Updated
+
+- `@xarc/index-page@1.1.0` `(1.0.11 => 1.1.0)`
+- `subapp-server@2.1.0` `(2.0.2 => 2.1.0)`
+- `subapp-web@2.1.0` `(2.0.1 => 2.1.0)`
+
+### Lerna Updated
+
+- `subapp-pbundle@1.1.0` `(1.0.1 => 1.1.0)`
+- `subapp-react@1.1.0` `(1.0.1 => 1.1.0)`
+- `subapp-redux@2.2.0` `(2.1.0 => 2.2.0)`
+
+## Commits
+
+- `packages/xarc-index-page`
+
+  - [minor] add csp functionality to subappv1 ([#1955](https://github.com/electrode-io/electrode/pull/1955)) [commit](http://github.com/electrode-io/electrode/commit/ebf07fa1782e720bca57733cb95cfb147311137e)
+
+- `packages/subapp-server`
+
+  - [minor] add csp functionality to subappv1 ([#1955](https://github.com/electrode-io/electrode/pull/1955)) [commit](http://github.com/electrode-io/electrode/commit/ebf07fa1782e720bca57733cb95cfb147311137e)
+
+- `packages/subapp-web`
+
+  - [minor] add csp functionality to subappv1 ([#1955](https://github.com/electrode-io/electrode/pull/1955)) [commit](http://github.com/electrode-io/electrode/commit/ebf07fa1782e720bca57733cb95cfb147311137e)
+
+- `MISC`
+
+  - chore: remove incorrect changelog update [commit](http://github.com/electrode-io/electrode/commit/1482e3da970b7d1414dbc0d4087ff5e4a16b06a7)
+
+# 3/6/2023
+
+## Packages
+
+- `@xarc/opt-sass@4.1.0` `(4.0.0 => 4.1.0)`
+
+## Commits
+
+- `packages/xarc-opt-sass`
+
+  - [minor] node-sass replaced with sass - rebuild ([#1952](https://github.com/electrode-io/electrode/pull/1952)) [commit](http://github.com/electrode-io/electrode/commit/ec8c47270d28b33ccda9521788a8d268942495db)
+
+- `MISC`
+
+  - Update changelog [commit](http://github.com/electrode-io/electrode/commit/4772d28e837c34a1f7c5bf318492322fd2ac4b7d)
+# 3/3/2023
+
+## Packages
+
+- `subapp-redux@2.1.0` `(2.0.1 => 2.1.0)`
+
+## Commits
+
+- `packages/subapp-redux`
+
+  - [minor]: fix props passing when redux load subapp is used ([#1953](https://github.com/electrode-io/electrode/pull/1953)) [commit](http://github.com/electrode-io/electrode/commit/f56df3bc68955247511678d9ae5c855457ab3423)
+
+# 3/2/2023
+
+## Packages
+
+### Directly Updated
+
+- `subapp-pbundle@1.0.1` `(1.0.0 => 1.0.1)`
+- `subapp-react@1.0.1` `(1.0.0 => 1.0.1)`
+- `subapp-server@2.0.2` `(2.0.1 => 2.0.2)`
+- `subapp-web@2.0.1` `(2.0.0 => 2.0.1)`
+
+### Lerna Updated
+
+- `subapp-redux@2.0.1` `(2.0.0 => 2.0.1)`
+
+## Commits
+
+- `packages/subapp-pbundle`
+
+  - chore: fix build failure ([#1951](https://github.com/electrode-io/electrode/pull/1951)) [commit](http://github.com/electrode-io/electrode/commit/36d4359ad073b16ad73e67bbc879fd1e42a0add7)
+
+- `packages/subapp-react`
+
+  - chore: fix build failure ([#1951](https://github.com/electrode-io/electrode/pull/1951)) [commit](http://github.com/electrode-io/electrode/commit/36d4359ad073b16ad73e67bbc879fd1e42a0add7)
+
+- `packages/subapp-server`
+
+  - fix: pass props to subapps through lazyloaded subapp ([#1949](https://github.com/electrode-io/electrode/pull/1949)) [commit](http://github.com/electrode-io/electrode/commit/43da5563d32da7f5d0f25254013609db58c03a96)
+
+- `packages/subapp-web`
+
+  - fix: pass props to subapps through lazyloaded subapp ([#1949](https://github.com/electrode-io/electrode/pull/1949)) [commit](http://github.com/electrode-io/electrode/commit/43da5563d32da7f5d0f25254013609db58c03a96)
+
 # 1/19/2023
 
 ## Packages
