@@ -16,12 +16,12 @@ const subApps = [
 
 export async function fastifyPlugin(server: ElectrodeFastifyInstance) {
   const homeRenderer: PageRenderer = new PageRenderer({
-    pageTitle: "Xarc React 18 - Home",
-    subApps
+    pageTitle: "Xarc React 19 - Home",
+    subApps,
   });
   const productRenderer: PageRenderer = new PageRenderer({
-    pageTitle: "Xarc React 18 - Product",
-    subApps
+    pageTitle: "Xarc React 19 - Product",
+    subApps,
   });
 
   server.route({

@@ -30,7 +30,15 @@ export const Products = createDynamicComponent(
     name: "Products",
     getModule: () => import("../../components/products"),
   },
-  { ssr: true }
+  { ssr: true },
+);
+
+export const TodoData = createDynamicComponent(
+  {
+    name: "TodoData",
+    getModule: () => import("../../components/Todo"),
+  },
+  { ssr: true },
 );
 
 const MainBody = (props) => {
@@ -51,12 +59,13 @@ const MainBody = (props) => {
         <h2>Body subApp with Redux State Demo</h2>
         <button onClick={() => dispatch(decNumber())}>&#8810;</button>
         &nbsp;{value}&nbsp;
-        <button onClick={() => dispatch(incNumber())}>&#8811;</button> 
+        <button onClick={() => dispatch(incNumber())}>&#8811;</button>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/todo" element={<TodoData />} />
         </Routes>
-      </div>      
+      </div>
     </div>
   );
 };
@@ -75,6 +84,7 @@ export const subapp: ReactSubApp = {
       prepare: async (initialState) => {
         return { initialState: initialState || { number: { value: 999 } } };
       },
-    }), reactRouterFeature({ React })
+    }),
+    reactRouterFeature({ React }),
   ],
 };
